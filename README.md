@@ -15,7 +15,7 @@ We illustrate the characteristics of PTADisc from the following four aspects:
 
 ### Data repository structure
 
-Data can be downloaded [here](http://121.36.215.35/).
+Data can be downloaded [here](https://drive.google.com/drive/folders/1ueQRkh-GwlpW1rMJcyXBAZQAhubdk-HE?usp=drive_link).
 
 The directory is organized as:
 
