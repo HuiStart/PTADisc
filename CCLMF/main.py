@@ -51,7 +51,7 @@ if __name__ == '__main__':
     pre_model = "./model/ncd_python_model"
 
     # set log files
-    current_time = time.strftime('%Y-%m-%d-%H:%M', time.localtime())
+    current_time = time.strftime('%Y-%m-%d-%H-%M', time.localtime())
     log_dir = f'./logs/{model_name}/'
     if not os.path.exists(log_dir):
         os.mkdir(log_dir)
@@ -122,4 +122,3 @@ if __name__ == '__main__':
         cdm.load(best_model)
         auc, accuracy, rmse = cdm.eval(test_set, device=device)
         log("on test data: auc: %.6f, accuracy: %.6f, rmse: %.6f" % (auc, accuracy, rmse))
-

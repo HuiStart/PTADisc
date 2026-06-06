@@ -1,3 +1,6 @@
 CCLMF/.DS_Store
 .DS_Store
-/data/
+*data/
+*/__pycache__
+*/model/
+*/logs/
